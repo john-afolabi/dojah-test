@@ -10,12 +10,16 @@ const PrimaryButtonWrapper = styled.button`
   font-size: 14px;
   padding: 14px 16px;
   cursor: pointer;
+  border-radius: 4px;
+  font-weight: 500;
 
   &:hover {
-    background-color: ${(props) => tint(0.4, props.theme.primaryColor)};
+    background-color: ${(props) => tint(0.2, props.theme.primaryColor)};
   }
 `;
 
-export const PrimaryButton = ({ children }) => {
+const PrimaryButton = ({ children }) => {
   return <PrimaryButtonWrapper>{children}</PrimaryButtonWrapper>;
 };
+
+export default PrimaryButton;

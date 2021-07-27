@@ -10,12 +10,16 @@ const SecondaryButtonWrapper = styled.button`
   font-size: 14px;
   padding: 14px 16px;
   cursor: pointer;
+  border-radius: 4px;
+  font-weight: 500;
 
   &:hover {
     background-color: ${(props) => tint(0.4, props.theme.secondaryColor)};
   }
 `;
 
-export const SecondaryButton = ({ children }) => {
+const SecondaryButton = ({ children }) => {
   return <SecondaryButtonWrapper>{children}</SecondaryButtonWrapper>;
 };
+
+export default SecondaryButton;
