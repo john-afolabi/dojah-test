@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'Athletics';
+  font-weight: 400;
+  src: url('../fonts/Athletics-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Athletics';
+  font-weight: 500;
+  src: url('../fonts/Athletics-Medium.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Athletics';
+  font-weight: 700;
+  src: url('../fonts/Athletics-Bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Athletics';
+  font-weight: 900;
+  src: url('../fonts/Athletics-ExtraBold.woff2') format('woff2');
+}
+
+body {
+  font-family: 'Athletics', sans-serif;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
