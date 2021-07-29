@@ -9,8 +9,8 @@ const HeroWrapper = styled.section`
   background: url(${heroBG}) center no-repeat;
   background-size: cover;
   height: 900px;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 50%, 0 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
 
   .hero-content {
     text-align: center;

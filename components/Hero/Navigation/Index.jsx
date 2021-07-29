@@ -6,7 +6,7 @@ import PrimaryButton from '../../Buttons/PrimaryButton';
 const NavigationWrapper = styled.nav`
   max-width: 1280px;
   margin: 0 auto;
-  padding-top: 20px;
+  padding: 10px 16px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -31,6 +31,11 @@ const NavigationWrapper = styled.nav`
   .cta {
     span {
       margin-right: 10px;
+
+      a {
+        font-size: 14px;
+        color: #677189;
+      }
     }
   }
 `;
