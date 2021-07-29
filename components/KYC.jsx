@@ -4,6 +4,7 @@ import kyc from '../assets/images/jpg/kyc.jpg';
 
 const KYCWrapper = styled.section`
   display: flex;
+  min-height: 620px;
 
   div.kyc-image {
     background: url(${kyc}) center no-repeat;
@@ -14,7 +15,7 @@ const KYCWrapper = styled.section`
   .kyc-content {
     background-color: #fcfcfc;
     width: 50%;
-    padding: 100px;
+    padding: 120px;
 
     h1 {
       font-size: 48px;
