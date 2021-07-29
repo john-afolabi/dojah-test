@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Hero from '../components/Hero';
+import Hero from '../components/Hero/Index';
 import Intro from '../components/Intro';
 import Clients from '../components/Clients';
 import KYC from '../components/KYC';
