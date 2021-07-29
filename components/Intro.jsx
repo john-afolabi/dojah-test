@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import laptop from '../assets/images/png/laptop.png';
-import cService from '../assets/images/svg/c-service.svg';
-import support from '../assets/images/svg/support.svg';
+import CService from '../assets/images/svg/c-service.svg';
+import Support from '../assets/images/svg/support.svg';
 import icon from '../assets/images/png/icon.png';
 
 const IntroWrapper = styled.section`
@@ -29,7 +29,7 @@ const IntroWrapper = styled.section`
       color: #9cbbee;
       font-weight: 700;
 
-      img {
+      svg {
         vertical-align: middle;
         margin-right: 9px;
       }
@@ -57,11 +57,12 @@ const Intro = () => {
 
       <div>
         <span>
-          <img src={cService} alt="customer service" /> Great customer service
+          <CService /> Great customer service
         </span>
 
         <span>
-          <img src={support} alt="24/7 support" /> 24/7 Support
+          <Support />
+          24/7 Support
         </span>
       </div>
 

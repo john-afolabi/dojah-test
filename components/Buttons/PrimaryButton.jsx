@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { tint } from 'polished';
-import arrowIMG from '../../assets/images/svg/arrow.svg';
+import ArrowIMG from '../../assets/images/svg/arrow.svg';
 
 const PrimaryButtonWrapper = styled.button`
   background-color: ${(props) => props.theme.primaryColor};
@@ -18,7 +18,7 @@ const PrimaryButtonWrapper = styled.button`
     background-color: ${(props) => tint(0.2, props.theme.primaryColor)};
   }
 
-  img {
+  svg {
     vertical-align: middle;
     margin-left: 6px;
   }
@@ -27,7 +27,12 @@ const PrimaryButtonWrapper = styled.button`
 const PrimaryButton = ({ children, arrow }) => {
   return (
     <PrimaryButtonWrapper>
-      {children} {arrow && <img src={arrowIMG} />}
+      {children}
+      {arrow && (
+        <span>
+          <ArrowIMG />
+        </span>
+      )}
     </PrimaryButtonWrapper>
   );
 };
